@@ -1,0 +1,54 @@
+:root {
+    --verde-padrao: #7e8c54;
+    --cor-sec: #ffffff;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'Momo Trust Display';
+    outline: none;
+}
+
+body {
+    height: 100dvh;
+    background: #fff;
+}
+
+main {
+    height: 100%;
+}
+
+.usernameDiv {
+    text-shadow: black 1px 1px 1px;
+    position: relative;
+    justify-self: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    top: 50%;
+    transform: translateY(-50%);
+    border: solid black;
+    border-radius: 20px;
+    background: #333;
+    opacity: 0.8;
+    padding: 5px;
+    width: 25%;
+    height: 45%;
+}
+
+.usernameDiv button {
+    border: solid black;
+    color: black;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.usernameDiv input {
+    color: black;
+}

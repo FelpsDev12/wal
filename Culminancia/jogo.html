@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="jogo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Momo+Trust+Display&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="teladerrota" style="visibility: hidden;">
+        <h2 id="teladerrota">Voce Morreu</h2>
+
+        <button id="restart"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" fill="#ffffff">
+                <path
+                    d="M480-80q-75 0-140.5-28.5t-114-77q-48.5-48.5-77-114T120-440h80q0 117 81.5 198.5T480-160q117 0 198.5-81.5T760-440q0-117-81.5-198.5T480-720h-6l62 62-56 58-160-160 160-160 56 58-62 62h6q75 0 140.5 28.5t114 77q48.5 48.5 77 114T840-440q0 75-28.5 140.5t-77 114q-48.5 48.5-114 77T480-80Z" />
+            </svg></button>
+    </div>
+
+    <div class="feedbackCustom" style="display: none;">
+    </div>
+
+    <div class="dica" style="display: none;">
+    </div>
+
+    <div class="fases">
+        <section class="platao unlocked"><img src="assets/platao.png"></section>
+        <section class="habermas locked"><img src="assets/habermas.png"></section>
+        <section class="morus locked"><img src="assets/morus.png"></section>
+    </div>
+
+    <canvas id="game-canvas" width="900" height="450" style="display: none;"></canvas>
+
+    <script type="module" src="script.js"></script>
+    <script type="module" src="index.js"></script>
+
+</body>
+
+</html>
