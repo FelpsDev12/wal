@@ -19,7 +19,7 @@ body {
     position: relative;
     align-items: center;
     top: 50%;
-    gap: 60px;
+    gap: 90px;
     transform: translateY(-30%);
     justify-self: center;
 }
@@ -52,6 +52,7 @@ body {
     z-index: 401;
     border: solid black;
     border-radius: 10px;
+    background: white;
     width: 300px;
     
 }

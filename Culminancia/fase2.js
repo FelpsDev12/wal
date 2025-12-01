@@ -4,16 +4,10 @@ import { checkCollision, subirObstaculo, modificarObstaculo, checarColisaoLatera
 const dica = document.querySelector('.dica')
 const canvas = document.getElementById('game-canvas');
 
-export const fase1 = {
+export const fase2 = {
     
     plataformas: [
-        { x: 700, y: 200, w: 70, h: 25, color: "#333", class: 'dica'},
-        { x: 350, y: 400, w: 70, h: 10, color: "#333", visible: false, class: 'dica'},
-        { x: 100, y: 120, w: 70, h: 20, color: "#333", class: 'dica'},
-        { x: 170, y: 170, w: 70, h: 20, color: "#333", modificou: false, class: 'acess'}, 
-        { x: 350, y: 200, w: 70, h: 20, color: "#333", class: 'acess' },
-        { x: 650, y: 320, w: 70, h: 20, color: "#333", visible: true,  class: 'acess'},
-        {x: 500, y: 200, w:70, h: 20, color: "#333", class: 'acess'},
+        
     ],
 
     game: {
